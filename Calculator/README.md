@@ -37,7 +37,7 @@ This project combines functionality with a visually appealing neon-glow interfac
 
 ## Preview
 
-![Modern Neon Calculator Screenshot](./Screenshot%202025-11-12%20204143.png)
+![Modern Neon Calculator Screenshot](./Screenshot.png)
 
 A glass-style calculator interface with a modern neon theme and glowing button effects.
 
