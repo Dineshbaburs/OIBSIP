@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* Outer glass container */
+.container {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 25px;
+  padding: 25px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Calculator Body */
+.calculator {
+  width: 340px;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 20px;
+  box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.2);
+  padding: 15px;
+}
+
+/* Display Screen */
+.display {
+  height: 80px;
+  background: rgba(10, 10, 10, 0.85);
+  color: #00ffc3;
+  font-size: 2.3rem;
+  text-align: right;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.4);
+}
+
+/* Button Grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* Button Base Style */
+.btn {
+  font-size: 1.2rem;
+  padding: 18px;
+  border: none;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+  background: rgba(0, 255, 255, 0.2);
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* Functional Buttons */
+.function {
+  background: rgba(255, 99, 71, 0.8);
+}
+
+.function:hover {
+  background: rgba(255, 69, 58, 1);
+  box-shadow: 0 0 15px rgba(255, 99, 71, 0.7);
+}
+
+/* Operators */
+.operator {
+  background: rgba(0, 191, 255, 0.3);
+  color: #00e0ff;
+}
+
+.operator:hover {
+  background: rgba(0, 191, 255, 0.5);
+}
+
+/* Equal Button */
+.equal {
+  background: linear-gradient(135deg, #00ffae, #00d4ff);
+  color: #000;
+  font-weight: 700;
+  box-shadow: 0 0 20px #00ffd5, 0 0 30px #00b7ff;
+  grid-row: span 2;
+}
+
+.equal:hover {
+  background: linear-gradient(135deg, #a2a8a6, #00c3ff);
+  box-shadow: 0 0 30px #00ffe6, 0 0 60px #00e0ff;
+}
+
+/* Zero Button */
+.zero {
+  grid-column: span 2;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .calculator {
+    width: 90%;
+  }
+
+  .display {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 15px;
+  }
+}
