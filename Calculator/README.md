@@ -66,8 +66,7 @@ I would like to express my gratitude to the **Oasis Infobyte Team** for providin
 
 ## Project Links
 
-- **GitHub Repository:** [Add your GitHub link here]  
-- **Live Demo:** [Add live project link here]
+- **Live Demo:** [https://zesty-piroshki-c401b0.netlify.app/]
 
 ---
 
