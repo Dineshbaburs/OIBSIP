@@ -75,6 +75,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Author:** [Dinesh Babu R S](https://github.com/Dineshbaburs)
+**Author:** [Dinesh Babu R S](https://github.com/Dineshbaburs) **.**
 **Project:** Modern Neon Calculator  
 **Category:** Web Development and Designing
