@@ -42,7 +42,7 @@ This project highlights his life, values, achievements, and inspiring quotes thr
 ##  Preview
 
 ```
-![Ratan Tata Tribute Preview](./screenshot.png)
+[Ratan Tata Tribute Preview](./Screenshot.png)
 ```
 
 ---
