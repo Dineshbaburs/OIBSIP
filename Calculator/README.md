@@ -77,4 +77,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Author:** Johan  
 **Project:** Modern Neon Calculator  
-**Category:** Front-End Development
+**Category:** Web Development and Designing
