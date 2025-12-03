@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <h1 class="title">Daily Task Manager</h1>
+        <p class="subtitle">Stay focused. Stay organized. Stay productive.</p>
+
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="What do you want to get done today?">
+            <button class="add-btn" onclick="addTask()">+</button>
+        </div>
+
+        <div class="stats-row">
+            <div class="stat-box">
+                <span id="pendingCount">0</span>
+                <p>Pending</p>
+            </div>
+            <div class="stat-box">
+                <span id="completedCount">0</span>
+                <p>Completed</p>
+            </div>
+            <div class="stat-box">
+                <span id="totalCount">0</span>
+                <p>Total</p>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('all')">All</button>
+            <button class="tab" onclick="showTab('pending')">Pending</button>
+            <button class="tab" onclick="showTab('completed')">Completed</button>
+        </div>
+
+        <div class="task-container">
+            <ul id="taskList"></ul>
+            <p id="emptyMessage">Your tasks will appear here.</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
