@@ -73,7 +73,7 @@ This project strengthened my front-end foundations and design confidence.
 ---
 
 ## Project Links
-- **Live Demo:** [Live Demo](https://ratan-tata-tributepage.netlify.app/)
+- **Live Demo:** [Live Demo](https://ratan-naval-tata-tribute-page.netlify.app/)
 
 ---
 ##  Details

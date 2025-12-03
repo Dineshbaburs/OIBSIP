@@ -65,7 +65,7 @@ I would like to express my gratitude to the **Oasis Infobyte Team** for providin
 ---
 
 ## Project Links
-- **Live Demo:** [Live Demo](https://calculator-sampledemo.netlify.app/)
+- **Live Demo:** [Live Demo](https://modern-neon-calculator.netlify.app/)
 
 ---
 
